@@ -8,7 +8,7 @@ button{
 }
 
 .redButton{
-    background-color:(rgb(233, 97, 97));
+    background-color:var(--red);
     color: var(--white);
     font-size: rem-calc(18);
     font-weight: 800;

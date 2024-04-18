@@ -27,15 +27,17 @@
 
    </header>
 
-   <section>
-        <h1 class=".pageTitle">Mountain Hikes</h1>
-            <p> Mountain hiking embodies what hiking is all about: breathtaking views, fresh air, and a good workout. Here’s you’re guide on how to hike the mountains safely. </p>
-           <button class="redButton">Trail Maps</button> 
+   <section id="index-hero">
+       <div> 
+        <h1 class="pageTitle">Mountain Hikes</h1> <br>
+        <p> Mountain hiking embodies what hiking is all about: breathtaking views, fresh air, and a good workout. Here’s you’re guide on how to hike the mountains safely. </p>
+       <button class="redButton">Trail Maps</button> 
+    </div>
            <img src="img/home/hero.jpg" alt="hero image of forest">
    </section>
    
-<section>
-    <ul>
+<section id="index-brands">
+    <ul>  
         <li>
             <img src="img/home/brands/tnf.svg" alt="The Northface logo">
             <img src="img/home/brands/yeti.svg" alt="Yeti logo">
@@ -46,16 +48,21 @@
     </ul>
 </section>
 
-<section>
-    <h1 class=".contentSectionTitle">Planning a Mountain Hike</h1>
+<section id="index-planning">
+    <h1 class="contentSectionTitle">Planning a Mountain Hike</h1>
     <p>The first hiking tip has more to do with expectation setting than technique. If you normally hike at about a 2-3mph pace (which is pretty normal), expect to cover 0.5-1.5 mph when hiking up a mountain.</p>
 
-    <img src="img/home/planning/planning.jpg" alt="layout of gear">
-    <div>
-        <img src="img/home/planning/clock.svg" alt="alarm icon">
+    <img src="img/home/planning/planning.jpg" alt="layout of gear" id="planning-hero">
+
+    <div id="planning-callout">
+        <div id="clock-container">
+            <img src="img/home/planning/clock.svg" alt="alarm clock icon">
+        </div>
+        
         <h3>Don't forget your alarm clock</h3>
     </div>
 </section>
+
 <section>
     <h1 class=".contentSectionTitle">Mountain Weather</h1>
     <h2>Things you will need.</h2>
@@ -75,7 +82,7 @@
 </section>
 
 <footer>
-    <img src="img/footer/footer.jpg" alt="footer background image">
+    <img src="img/footer/footer.jpg" alt="footer background image" class="hide-img">
     <h2>Sign Up!</h2>
 
     <form action="#">
