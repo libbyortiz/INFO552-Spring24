@@ -358,11 +358,6 @@ body {
   font-optical-sizing: auto;
 }
 
-h1 {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-}
-
 h1, h2, h3, h4, h5 {
   padding: 0;
   margin: 0;
@@ -436,13 +431,29 @@ textarea {
 /* =============
     Header
 ============= */
-header {
-  display: none;
-}
-
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+  padding-bottom: 32px;
+}
+footer h2 {
+  padding-top: 200px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+footer form input {
+  border-radius: 0;
+  border: none;
+}
+footer form button {
+  background-color: var(--red);
+  padding: 16px;
+}
 /* =============
     Index
 ============= */
@@ -510,4 +521,49 @@ header {
 #index-planning #planning-callout h3 {
   font-size: 1.5625rem;
   font-weight: 500;
+}
+
+#index-weather {
+  padding: 32px 16px;
+}
+#index-weather h1 {
+  color: var(--blue);
+}
+#index-weather h2 {
+  color: var(--aqua);
+  margin-bottom: 8px;
+}
+#index-weather p {
+  margin-bottom: 24px;
+}
+
+/* =============
+    Views
+============= */
+#views-hero {
+  padding: 32px 16px;
+  text-align: center;
+}
+#views-hero h1 {
+  margin-bottom: 32px;
+}
+#views-hero p {
+  color: var(--blue);
+}
+
+#views-gallery li img {
+  width: 100%;
+}
+
+/* =============
+    Contact
+============= */
+#contact-hero {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+#contact-form {
+  background-color: var(--seaFoamGreen);
+  padding: 32px 16px;
 }
