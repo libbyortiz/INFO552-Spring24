@@ -16,6 +16,7 @@
         @include lg{
             padding: 0 20vw;
         }
+        
         @include xxl{
             padding: 0 400px;
         }
@@ -120,10 +121,10 @@
         text-align: left;
 
         @include md{
-                padding-right: 30vw;
-                font-size: rem-calc(20);
-                line-height: 25px;
-            }
+            padding-right: 30vw;
+            font-size: rem-calc(20);
+            line-height: 25px;
+        }
     }
 
     #planning-hero{
@@ -139,7 +140,7 @@
         }
 
         @include lg{
-            padding-left: 200px;
+            margin-left: 200px;
         }
 
         @include xl{
